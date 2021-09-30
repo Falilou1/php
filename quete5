@@ -1,0 +1,14 @@
+<?php
+$weapons = ['fists', 'whip', 'gun'];
+$opponentWeapon = $weapons[rand(0,2)];  
+
+
+if($opponentWeapon === 'gun'){
+    echo $indyweapon = 'whip'
+}
+elseif($opponentWeapon === 'fist'){
+    echo $indyweapon = 'gun'
+}
+elseif($opponentWeapon === 'whip'){
+echo $indyweapon = 'fist'
+}
